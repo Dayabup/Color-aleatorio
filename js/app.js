@@ -1,7 +1,7 @@
 const btnColor = document.getElementById("btnColor");
 // console.log(btnColor);
 // const color = document.getElementById("color");
-const color = document.querySelector("color");
+const color = document.querygetElementById("color");
 console.log(color);
 
 //funcion color aleatorio
@@ -20,6 +20,6 @@ btnColor.addEventListener("click", () => {
   let colorAleatorio = colorHexRandom();
   // console.log(colorAleatorio);
   // console.log(document);
-  document.primerIngrediente.style.backgroundColor = colorAleatorio;
+  document.style.backgroundColor = colorAleatorio;
   color.innerHTML = colorAleatorio;
 });
