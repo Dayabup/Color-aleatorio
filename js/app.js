@@ -8,7 +8,7 @@ console.log(color);
 function colorHexRandom() {
   const valores = "0123456789ABCDEF";
   let colorA = "#";
-  for (i = 0; i < 6; i++) {
+  for (i = 0; i < 7; i++) {
     colorA += valores[Math.floor(Math.random() * valores.length)];
   }
   return colorA;
