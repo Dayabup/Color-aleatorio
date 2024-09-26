@@ -1,7 +1,7 @@
 const btnColor = document.getElementById("btnColor");
-console.log(btnColor);
+// console.log(btnColor);
 // const color = document.getElementById("color");
-const color = document.querySelector("#color");
+const color = document.querySelector("color");
 console.log(color);
 
 //funcion color aleatorio
