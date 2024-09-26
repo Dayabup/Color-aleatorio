@@ -18,8 +18,8 @@ console.log(colorHexRandom());
 //Event listener
 btnColor.addEventListener("click", () => {
   let colorAleatorio = colorHexRandom();
-  console.log(colorAleatorio);
-  console.log(document);
+  // console.log(colorAleatorio);
+  // console.log(document);
   document.primerIngrediente.style.backgroundColor = colorAleatorio;
   color.innerHTML = colorAleatorio;
 });
